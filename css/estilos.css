@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  border: 1px solid black;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(50, 97, 168, 0.9), rgba(50, 97, 168, 0.3)), url("../img/casa de la moneda en arg.jpg") center top;
+  background-size: cover;
+}
+
+.plantilla__container1 {
+  border: 1px solid black;
+  align-items: center;
+  text-align: center;
+  height: calc(100vh - 70px);
+  background-image: linear-gradient(to right, rgba(50, 97, 168, 0.9), rgba(50, 97, 168, 0.3)), url(../img/muchasmonedas2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plantilla__container2 {
+  border: 1px solid black;
+  align-items: center;
+  text-align: center;
+  height: calc(100vh - 70px);
+  background-image: linear-gradient(to right, rgba(50, 97, 168, 0.9), rgba(50, 97, 168, 0.3)), url(../img/muchasmonedas1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plantilla__text {
+  color: white;
+}
+.plantilla__title {
+  font-size: 2.5rem;
+  margin-bottom: 0.625rem;
+}
+.plantilla__paragraph {
+  font-size: 1.1875rem;
+}
+
+body {
+  background: rgb(50, 97, 168);
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar-dark {
+  background-color: rgb(50, 97, 168);
+}
+
+.dropdown-menu {
+  background-color: rgb(50, 97, 168);
+}
+
+.footer-color {
+  background-color: rgb(50, 97, 168);
+}
+
+.footer-main {
+  padding-top: 90px;
+}
+
+.address-main > div.col-lg-4 {
+  border-bottom: dotted 1px #999;
+}
+
+.address-box {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.add-icon {
+  width: 60px;
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.address-box .add-icon {
+  background: #27303b;
+  height: 75px;
+  line-height: 75px;
+  width: 75px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.add-icon img {
+  width: 100%;
+}
+
+.address-box .add-icon img {
+  max-width: 40px;
+}
+
+.add-content {
+  padding-left: 70px;
+}
+
+.add-content h5 {
+  font-size: 17px;
+  color: #ffffff;
+  padding: 0;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.add-content p {
+  font-size: 13px;
+  color: #999999;
+  font-weight: 300;
+}
+.add-content a {
+  font-size: 14px;
+  color: #999999;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+.add-content p a:hover {
+  color: #ebc908;
+}
+
+/*# sourceMappingURL=estilos.css.map */

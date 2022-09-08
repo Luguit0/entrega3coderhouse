@@ -1,0 +1,48 @@
+@use 'mixinsf';
+@mixin arreglar-img {
+    background: {
+        size: cover;
+        repeat: no-repeat;
+        position: center;
+    }
+
+    ;
+}
+
+.plantilla {
+
+    &__container1{
+        border: 1px solid $color-secundario;
+        align-items: center;
+        text-align: center;
+        height: calc(100vh - 70px);
+        background-image: linear-gradient(to right,
+        rgba($color-primario, 0.9),
+        rgba($color-primario, 0.3)), url(../img/muchasmonedas2.jpg);
+        @include arreglar-img;
+        @include mixinsf.m-platilla(center);
+    }
+    &__container2{
+        border: 1px solid $color-secundario;
+        align-items: center;
+        text-align: center;
+        height: calc(100vh - 70px);
+        background-image: linear-gradient(to right,
+        rgba($color-primario, 0.9),
+        rgba($color-primario, 0.3)), url(../img/muchasmonedas1.jpg);
+        @include arreglar-img;
+        @include mixinsf.m-platilla(center);
+    }
+    &__text {
+        color: white;
+    }
+    &__title {
+        font-size: mixinsf.pixeles-rem(40);
+        margin-bottom: mixinsf.pixeles-rem(10);
+    }
+
+    &__paragraph {
+        font-size: mixinsf.pixeles-rem(19);
+    }
+
+}
