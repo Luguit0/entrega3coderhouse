@@ -12,7 +12,6 @@
   align-items: center;
   text-align: center;
   background: linear-gradient(to right, rgba(50, 97, 168, 0.9), rgba(50, 97, 168, 0.3)), url("../img/casa de la moneda en arg.jpg") center top;
-  background-size: cover;
 }
 
 .plantilla__container1 {
@@ -53,7 +52,7 @@
 }
 
 .nosotros {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .nosotros__img {
   height: 50vh;
@@ -74,6 +73,17 @@
 }
 .nosotros__bio .text-secundario {
   padding-bottom: 1rem;
+}
+
+.mnacional__img {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  border: 1px solid black;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(50, 97, 168, 0.9), rgba(50, 97, 168, 0.3)), url("../img/casa de la moneda en arg.jpg") center top;
+  background-size: contain;
 }
 
 body {

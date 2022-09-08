@@ -1,0 +1,16 @@
+.mnacional{
+    &__img{
+        height: 100%;
+        padding-top: 40vh;
+        overflow: hidden;
+        border: 1px solid $color-secundario;
+        align-items: center;
+        text-align: center;
+        background:
+            linear-gradient(to right,
+                rgba($color-primario, 0.9),
+                rgba($color-primario, 0.3)),
+            url('../img/casa\ de\ la\ moneda\ en\ arg.jpg') center top;
+        background-size:contain;
+    }
+}
