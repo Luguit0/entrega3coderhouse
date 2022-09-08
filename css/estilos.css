@@ -52,6 +52,30 @@
   font-size: 1.1875rem;
 }
 
+.nosotros {
+  padding-bottom: 2rem;
+}
+.nosotros__img {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(50, 97, 168, 0.9), rgba(50, 97, 168, 0.3)), url("../img/casa de la moneda en arg.jpg") center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nosotros__img p {
+  margin-bottom: 2rem;
+}
+.nosotros__bio {
+  width: 80%;
+  text-align: center;
+}
+.nosotros__bio .text-secundario {
+  padding-bottom: 1rem;
+}
+
 body {
   background: rgb(50, 97, 168);
   height: 100vh;
@@ -65,7 +89,7 @@ main {
 }
 
 header {
-  position: fixed;
+  position: relative;
   z-index: 2;
   width: 100%;
   padding: 0;

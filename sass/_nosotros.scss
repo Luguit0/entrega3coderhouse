@@ -1,0 +1,29 @@
+.nosotros {
+    padding-bottom: 2rem;
+
+    &__img {
+        height: 50vh;
+        width: 100%;
+        background:
+            linear-gradient(to right,
+                rgba($color-primario, 0.9),
+                rgba($color-primario, 0.3)),
+            url('../img/casa\ de\ la\ moneda\ en\ arg.jpg') center top;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    p{
+        margin-bottom: 2rem;
+    }
+    }
+    &__bio{
+        width: 80%;
+        text-align: center;
+
+        .text-secundario{
+            padding-bottom: 1rem;
+        }
+    }
+}

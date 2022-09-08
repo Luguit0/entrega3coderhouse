@@ -1,6 +1,7 @@
 @import 'config';
 @import 'home';
 @import 'plantilla';
+@import 'nosotros';
 
 
 body {
@@ -15,7 +16,7 @@ main {
 }
 
 header {
-    position: fixed;
+    position:relative;
     z-index: 2;
     width: 100%;
     padding: 0;
