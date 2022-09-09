@@ -6,7 +6,7 @@
 
 
 body {
-    background: $color-primario;
+    background-color:#f0e8e8 ;
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1;
@@ -23,6 +23,9 @@ header {
     padding: 0;
 }
 
+.tabla-color{
+    background-color: $color-primario;
+}
 .navbar-dark {
     background-color: $color-primario;
 }

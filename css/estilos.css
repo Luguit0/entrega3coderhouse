@@ -78,15 +78,13 @@
 .mnacional__img {
   height: 100%;
   overflow: hidden;
-  border: 1px solid black;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, rgba(50, 97, 168, 0.9), rgba(50, 97, 168, 0.3)), url("../img/casa de la moneda en arg.jpg") center top;
   background-size: contain;
 }
 
 body {
-  background: rgb(50, 97, 168);
+  background-color: #f0e8e8;
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
@@ -102,6 +100,10 @@ header {
   z-index: 2;
   width: 100%;
   padding: 0;
+}
+
+.tabla-color {
+  background-color: rgb(50, 97, 168);
 }
 
 .navbar-dark {
