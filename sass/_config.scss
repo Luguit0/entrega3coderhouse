@@ -1,9 +1,57 @@
+@use 'sass:math';
 $color-primario: rgb(50, 97, 168);
 $color-secundario: black;
+$bg-img-1: url('../img/Bandera-Argentina.jpg');
+$bg-img-2: url('../img/muchasmonedas1.jpg');
+$bg-img-3: url('../img/muchasmonedas2.jpg');
+$bg-img-4: url('../img/muchasmonedas3.jpg');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
 
+@mixin arreglar-img {
+    background: {
+        size: cover;
+        repeat: no-repeat;
+        position: center;
+    }
+}
+@mixin decolorado1{
+    background: linear-gradient(to right,
+    rgba(black, 0.9),
+    rgba(black, 0.3)),$bg-img-1;
+}
+@mixin decolorado2{
+    background: linear-gradient(to right,
+    rgba(black, 0.9),
+    rgba(black, 0.3)),$bg-img-3;
+}
+@mixin decolorado3{
+    background: linear-gradient(to right,
+    rgba(black, 0.9),
+    rgba(black, 0.3)),$bg-img-4;
+}
+@mixin decolorado4{
+    background: linear-gradient(to right,
+    rgba(black, 0.9),
+    rgba(black, 0.3)),$bg-img-2;
+}
+@mixin text{
+    text-align: start;
+    align-items: center;
+}
+
+@mixin m-platilla($justify){
+    display: flex;
+    align-items: center;
+    justify-content: $justify;
+}
+
+@function pixeles-rem($pixeles){
+    $rem: math.div($pixeles, 16) * 1rem;
+
+    @return $rem;
 }

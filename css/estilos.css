@@ -4,46 +4,80 @@
   box-sizing: border-box;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .home {
-  height: 100%;
-  padding-top: 40vh;
-  overflow: hidden;
-  border: 1px solid black;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, rgba(50, 97, 168, 0.9), rgba(50, 97, 168, 0.3)), url("../img/casa de la moneda en arg.jpg") center top;
+  background: url("../img/Bandera-Argentina.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 15px;
 }
 
 .plantilla__container1 {
+  height: calc(55vh - 70px);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   border: 1px solid black;
+  overflow: hidden;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("../img/muchasmonedas1.jpg");
+  text-align: start;
   align-items: center;
-  text-align: center;
-  height: calc(100vh - 70px);
-  background-image: linear-gradient(to right, rgba(50, 97, 168, 0.9), rgba(50, 97, 168, 0.3)), url(../img/muchasmonedas2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 5px;
 }
 .plantilla__container2 {
+  height: calc(55vh - 70px);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  overflow: hidden;
   border: 1px solid black;
-  align-items: center;
-  text-align: center;
-  height: calc(100vh - 70px);
-  background-image: linear-gradient(to right, rgba(50, 97, 168, 0.9), rgba(50, 97, 168, 0.3)), url(../img/muchasmonedas1.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("../img/muchasmonedas3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: start;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.plantilla__container3 {
+  height: calc(55vh - 70px);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  overflow: hidden;
+  border: 1px solid black;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("../img/muchasmonedas2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  align-items: center;
+  margin-bottom: 5px;
 }
 .plantilla__text {
   color: white;
 }
 .plantilla__title {
+  text-decoration: underline;
   font-size: 2.5rem;
   margin-bottom: 0.625rem;
 }
