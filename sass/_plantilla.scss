@@ -56,12 +56,12 @@
 
     &__title {
         text-decoration: underline;
-        font-size: config.pixeles-rem(40);
+        font-size: config.pixeles-rem(25);
         margin-bottom: config.pixeles-rem(10);
     }
 
     &__paragraph {
-        font-size: config.pixeles-rem(19);
+        font-size: config.pixeles-rem(15);
     }
 
 }
